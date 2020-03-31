@@ -3,20 +3,18 @@ body {
 }
 
 html {
-  -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
-
-#root {
-  width: 80%;
+#root{
+  width:80%;
   margin: 0 10%;
 }
+ 
 
 #India_f {
   margin: 20px;
   text-align: left;
 }
-
 #India_m {
   margin: 20px;
   text-align: left;
@@ -25,33 +23,17 @@ html {
 .fadeIn {
   opacity: 0;
   display: block;
-  -webkit-animation: slidein 1s ease-out forwards;
-          animation: slidein 1s ease-out forwards;
-}
-
-@-webkit-keyframes slidein {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
+  animation: slidein 1s ease-out forwards;
 }
 
 @keyframes slidein {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
+    transform: translateY(-25px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -71,38 +53,30 @@ html {
   font-style: oblique;
   color: white;
 }
-
 .box3 {
   width: 500%;
-  height: 500%;
+  height:500%;
   text-align: center;
   max-width: 65rem;
-  -webkit-box-shadow: 5px 10px;
-          box-shadow: 5px 10px;
+  box-shadow: 5px 10px;
   border: 2px solid black;
   border-radius: 25px;
   margin-bottom: 2%;
 }
 
-button {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+button{
+  box-sizing: content-box;
   font-size: medium;
-  text-align: center;
 }
-
-h2 {
+h2{
   text-decoration: underline;
 }
-
-h1 {
+h1{
   color: black;
   text-align: center;
   font-style: bold;
 }
-
-label {
+label{
   font-size: large;
   font-style: italic;
 }
-/*# sourceMappingURL=App.css.map */
